@@ -18,13 +18,22 @@ text-align: center
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding-bottom: 10px;
+    
 }
 
 
 
 .JavaGame{
+    padding-top: 10px;
     background-color: #7dcd85;
     height: 400px;
+}
+
+.contactme{
+    background-color: #303633;
+    color: white;
+    height: 100;
 }
 
 footer{
