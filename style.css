@@ -29,6 +29,37 @@ text-align: center
 
 }
 
+.lead{
+    animation:type 1s steps(25);
+    overflow: hidden;
+    white-space: nowrap;
+}
+@keyframes type{
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width: 25c;   
+    }
+
+}
+
+.lead{
+    animation:type 1s steps(25);
+    overflow: hidden;
+    white-space: nowrap;
+}
+@keyframes type{
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width: 25c;   
+    }
+
+}
+
+
 .pictureflex{
     display: flex;
     flex-direction: row;
@@ -41,7 +72,6 @@ text-align: center
 
 .JavaGame{
     padding-top: 10px;
-    background-color: #7dcd85;
     height: 400px;
 }
 
@@ -49,11 +79,13 @@ text-align: center
     background-color: #303633;
     color: white;
     height: 100;
+    padding-bottom: 20px;
 }
 
 footer{
     background-color: #f5b700;
     height: 75px;
     padding-top: 20px;
+
 }
 
