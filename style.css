@@ -27,11 +27,16 @@ header{
     width: 25c;   
 }       
 }       
-   
+
+#course{
+    margin-bottom: 200px;
+}
+
 .reverse{
     display: flex;
     flex-direction: row-reverse;
-    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
                     
 .JavaGame{
@@ -59,5 +64,16 @@ footer{
     text-align: center;
     }       
 
+@media only screen and (max-width: 576px) {
+    #course{
+        display: flex;  
+        flex-direction: column;
+        justify-content: center;
+    }
+    #course img{
+        height: 200px;
+        width:  200px;
+    }
+}
 
 
