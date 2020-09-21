@@ -1,102 +1,63 @@
-    *{
-        text-align: center
-    }
-        
-    .navcolor {
-            background-color: #f5b700;    
-        }
-        
-        .push-right {
-            display: flex;
-            justify-content: flex-end;
-            font-size: x-large;
-        }
-        
-        .lead{
-            animation:type 1s steps(25);
-            overflow: hidden;
-            white-space: nowrap;
-        }
-        @keyframes type{
-            0%{
-                width: 0ch;
-            }
-            100%{
-                width: 25c;   
-            }
-        
-        }
-        
-        .lead{
-            animation:type 1s steps(25);
-            overflow: hidden;
-            white-space: nowrap;
-        }
-        @keyframes type{
-            0%{
-                width: 0ch;
-            }
-            100%{
-                width: 25c;   
-            }
-        
-        }
-        
-        .lead{
-            animation:type 1s steps(25);
-            overflow: hidden;
-            white-space: nowrap;
-        }
-        @keyframes type{
-            0%{
-                width: 0ch;
-            }
-            100%{
-                width: 25c;   
-            }
-        
-        }
-        
-        
-        .pictureflex{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            padding-bottom: 10px;
+         
+.navcolor {
+    background-color: #0cc666;    
+}
             
-        }
-        
-        
-        
-        .JavaGame{
-            padding-top: 10px;
-            height: 400px;
-            background-image: url("images/ilya-pavlov-OqtafYT5kTw-unsplash\ \(1\).jpg");
-            color: white;
-        }
-        
-        .contactme{
-            background-color: #303633;
-            color: white;
-            height: 100;
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
-        
-        footer{
-            background-color: #f5b700;
-            height: 75px;
-            padding-top: 20px;
-        
-        }
-        
-        /*
-        @media only screen and (max-width:320px)  {
-            .pictureflex {
-                display: flex;
-                justify-content: space-evenly;
+.push-right {
+    display: flex;
+    justify-content: flex-end;
+    font-size: x-large;
+}
+
+header{
+    text-align: center;
+}
+            
+.lead{
+    animation:type 1s steps(25);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes type{
+    0%{
+    width: 0ch;
+}
+    100%{
+    width: 25c;   
+}       
+}                 
+     
+.reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
                     
-        }
-        }
-        */
-    
+.JavaGame{
+    padding-top: 10px;
+    height: 400px;
+    background-image: url("images/ilya-pavlov-OqtafYT5kTw-unsplash\ \(1\).jpg");
+    color: white;
+    background-size: cover;
+    text-align: center;
+}
+            
+.contactme{
+    background-color: #303633;
+    color: white;
+    height: 100;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+            
+footer{
+    background-color: #00cc66;
+    height: 70px;
+    padding-top: 20px;
+    text-align: center;
+}       
+
+
+
