@@ -26,8 +26,8 @@ header{
     100%{
     width: 25c;   
 }       
-}                 
-     
+}       
+   
 .reverse{
     display: flex;
     flex-direction: row-reverse;
@@ -57,7 +57,7 @@ footer{
     height: 70px;
     padding-top: 20px;
     text-align: center;
-}       
+    }       
 
 
 
