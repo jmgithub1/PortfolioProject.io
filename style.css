@@ -1,4 +1,6 @@
-         
+*{
+font-family: 'Roboto Condensed', sans-serif;
+}       
 .navcolor {
     background-color: #0cc666;    
 }
