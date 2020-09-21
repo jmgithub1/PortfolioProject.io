@@ -87,6 +87,13 @@ footer{
     height: 200px;
     width:  200px;
     }
+
+
+    .socialmedia{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
 }
 
 
