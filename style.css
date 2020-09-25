@@ -48,19 +48,10 @@ img{
 }
 
 
-.Trello{
-    background-image: url("./images/trello.PNG");
-    background-size: cover;
-    height: 800px;
-    color: white;
-    text-align: center;
-    padding: 400px;
-
-}
                     
 .JavaGame{
     padding-top: 10px;
-    height: 800px;
+    height: 400px;
     background-image: url("images/ilya-pavlov-OqtafYT5kTw-unsplash\ \(1\).jpg");
     color: white;
     background-size: cover;
