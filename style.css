@@ -11,6 +11,11 @@ font-family: 'Roboto Condensed', sans-serif;
     font-size: x-large;
 }
 
+#intro{
+    background-image: url("./images/background3.jpg");
+
+}
+
 header{
     text-align: center;
 }
