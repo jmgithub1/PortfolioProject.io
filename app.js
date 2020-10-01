@@ -7,7 +7,7 @@
 // odd click x  even click o
 //if number of clicks odd = x, otherwise 0
 // images for noughts and crosses
-const userClick = document.querySelector(".Cell0");
+const userClick = document.querySelector(".cell");
 
 userClick.addEventListener("click", () => {
     alert("You've clicked a box");
