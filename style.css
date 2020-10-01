@@ -62,7 +62,7 @@ img{
     background-size: cover;
     text-align: center;
 }
-            
+         
 .contactme{
     background-color: #303633;
     color: white;
@@ -101,8 +101,6 @@ footer{
         width:  175px;
 
     }
-
-
     .socialmedia{
         display: flex;
         flex-direction: column;
