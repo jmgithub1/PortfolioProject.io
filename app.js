@@ -21,13 +21,6 @@ for (let i = 0; i < gameCells.length; i++) {
     });    
 }
 
-//reset the board/page
-const reloadGame = document.querySelector("#reset");
-
-rel
-
-
-
 //players take turns
 //first to 3 in a line
 // 9 marked with no win = draw(reset game?)
