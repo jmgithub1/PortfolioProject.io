@@ -47,7 +47,7 @@ for (let i = 0; i < gameCells.length; i++) {
               if (xMoves.includes(winningCombos[i][j])){
                 count++
                 if(count === 3){
-                alert("Player One Wins")
+                alert("Player One Wins");
                 }
               }
             }
@@ -58,7 +58,7 @@ for (let i = 0; i < gameCells.length; i++) {
               if (oMoves.includes(winningCombos[i][j])){
                 count++
                 if(count === 3){
-                alert("Player Two Wins")
+                alert("Player Two Wins");
                 }
               }
             }
