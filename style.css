@@ -12,8 +12,8 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 #intro{
-    background-image: url("./images/background3.jpg");
-
+    background-image: url("./images/background2.jpg");
+    background-size: cover;
 }
 
 header{
