@@ -48,6 +48,7 @@ for (let i = 0; i < gameCells.length; i++) {
                 count++
                 if(count === 3){
                 alert("Player One Wins");
+                window.location.reload();
                 }
               }
             }
@@ -59,6 +60,7 @@ for (let i = 0; i < gameCells.length; i++) {
                 count++
                 if(count === 3){
                 alert("Player Two Wins");
+                window.location.reload();
                 }
               }
             }
