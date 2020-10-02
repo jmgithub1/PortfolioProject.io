@@ -13,13 +13,20 @@ let   numberClick = 0
 for (let i = 0; i < gameCells.length; i++) {
     gameCells[i].addEventListener("click", () => {
         if (numberClick % 2 == 0){
-            event.target.innerHTML =  "";
+            event.target.innerHTML = "X";
         } else {
             event.target.innerHTML = "O";
         }
         numberClick ++
     });    
 }
+
+//reset the board/page
+const reloadGame = document.querySelector("#reset");
+
+rel
+
+
 
 //players take turns
 //first to 3 in a line
