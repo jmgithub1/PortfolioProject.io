@@ -7,27 +7,19 @@
 // then be able add something in the box
 // odd click x  even click o
 //if number of clicks odd = x, otherwise 0
-// images for noughts and crosses
 const gameCells = document.querySelectorAll(".cell");
 let   numberClick = 0
 
 for (let i = 0; i < gameCells.length; i++) {
     gameCells[i].addEventListener("click", () => {
         if (numberClick % 2 == 0){
-            console.log("Even");
+            event.target.innerHTML =  "";
         } else {
-            console.log("odd");
+            event.target.innerHTML = "O";
         }
         numberClick ++
-    });
-    
-    
+    });    
 }
-
-
-
-
-
 
 //players take turns
 //first to 3 in a line

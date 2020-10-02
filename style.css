@@ -67,6 +67,7 @@ img{
     display: flex;                      
     flex-wrap: wrap;                   
     justify-content: space-around;
+    color: black;
   }
 
 #grid .cell {
