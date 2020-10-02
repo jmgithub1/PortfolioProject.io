@@ -7,34 +7,43 @@
 // then be able add something in the box
 // odd click x  even click o
 //if number of clicks odd = x, otherwise 0
+let xMoves = [];
+let oMoves = [];
 const gameCells = document.querySelectorAll(".cell");
-let   numberClick = 0
+let   numberClick = 0;
 
 for (let i = 0; i < gameCells.length; i++) {
-    gameCells[i].addEventListener("click", () => {
+    gameCells[i].addEventListener("click",  (event) => {
         if (numberClick % 2 == 0){
             event.target.innerHTML = "X";
+            xMoves.push(i);
         } else {
             event.target.innerHTML = "O";
+            oMoves.push(i);
         }
         numberClick ++
-    });    
-}
+        console.log(xMoves);
+        console.log(oMoves);  
+    });   
+}   
+
 
 //players take turns
 //first to 3 in a line
 // 9 marked with no win = draw(reset game?)
-//The user should be able to reset the game and play it again. 
 
+function gameLogic (xMoves, oMoves){
+    if (xMoves, oMoves === winLog){
+        alert ("You win");
+    }
+}
 
-//winning conditions//
-const winningConditions = [
-    [0, 1, 2],
-    [3, 4, 5],
-    [6, 7, 8],
-    [0, 3, 6],
-    [1, 4, 7],
-    [2, 5, 8],
-    [0, 4, 8],
-    [2, 4, 6]
-];
+// const winLog 
+//     [0, 1, 2]
+//     [3, 4, 5]
+//     [6, 7, 8]
+//     [0, 3, 6]
+//     [1, 4, 7]
+//     [2, 5, 8]
+//     [0, 4, 8]
+//     [2, 4, 6]
