@@ -109,12 +109,15 @@ ul.timeline {
   }
 
 #grid .cell {
-    flex: 0 0 33%;                       
-    margin-bottom: 20px;
+    flex: 0 0 33%;  
+    margin-bottom: 2px;                     
     background-color:white;
     height: 50px;
-    border: solid black 5px;
   }
+
+.cell{
+    height: 50px;
+}
          
 .contactme{
     background-color: #303633;
