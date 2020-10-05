@@ -67,6 +67,7 @@ ul.timeline {
     margin: 20px 0;
     padding-left: 20px;
   }
+
   ul.timeline > li:before {
     content: ' ';
     background: white;
@@ -102,8 +103,7 @@ ul.timeline {
     flex-wrap: wrap;                   
     justify-content: space-around;
     color: black;
-
-  }
+}
 
 .cell {
     flex: 0 0 33.33%;                       
@@ -114,7 +114,7 @@ ul.timeline {
     color: black;
     text-align: center;
     border: 2px solid black;
-  }
+}
 
          
 .contactme{
