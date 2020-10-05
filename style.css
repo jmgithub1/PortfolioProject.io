@@ -80,16 +80,12 @@ ul.timeline {
     z-index: 400;
   }
 
-
-
 .reverse{
     display: flex;
     flex-direction: row-reverse;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
-
                     
 .javaGame{
     padding-top: 10px;
@@ -106,18 +102,20 @@ ul.timeline {
     flex-wrap: wrap;                   
     justify-content: space-around;
     color: black;
+
   }
 
-#grid .cell {
-    flex: 0 0 33%;  
-    margin-bottom: 2px;                     
-    background-color:white;
-    height: 50px;
+.cell {
+    flex: 0 0 33.33%;                       
+    height: 75px;
+    width: 50px;
+    padding-top: 10px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: 2px solid black;
   }
 
-.cell{
-    height: 50px;
-}
          
 .contactme{
     background-color: #303633;

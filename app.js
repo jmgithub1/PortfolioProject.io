@@ -1,19 +1,3 @@
-//A classic first JavaScript game! Build a simple Noughts and Crosses game for two human players. 
-// 3x3 grid
-
-// DO NOT FORGET GAME CELLS!!! //
-
-// grid should be clickable and make box alertable
-// then be able add something in the box
-// odd click x  even click o
-//if number of clicks odd = x, otherwise 0
-//players take turns
-//first to 3 in a line
-// 9 marked with no win = draw(reset game?)
-//players take turns
-//first to 3 in a line
-// 9 marked with no win = draw(reset game?)
-
 let xMoves = [];
 let oMoves = [];
 const gameCells = document.querySelectorAll(".cell");
@@ -39,8 +23,6 @@ for (let i = 0; i < gameCells.length; i++) {
             oMoves.push(i);
         }
         numberClick ++
-        console.log(xMoves);
-        console.log(oMoves);
         for (let i = 0; i < winningCombos.length; i++) {
             let count = 0
             for (let j = 0; j < winningCombos[i].length; j++) { 
