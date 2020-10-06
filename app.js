@@ -23,29 +23,24 @@ for (let i = 0; i < gameCells.length; i++) {
             oMoves.push(i);
         }
         numberClick ++
-        for (let i = 0; i < winningCombos.length; i++) {
-            let count = 0
-            for (let j = 0; j < winningCombos[i].length; j++) { 
-              if (xMoves.includes(winningCombos[i][j])){
-                count++
-                if(count === 3){
-                alert("Player One Wins");
-                window.location.reload();
-                }
-              }
-            }
-          }
-          for (let i = 0; i < winningCombos.length; i++) {
-            let count = 0
-            for (let j = 0; j < winningCombos[i].length; j++) { 
-              if (oMoves.includes(winningCombos[i][j])){
-                count++
-                if(count === 3){
-                alert("Player Two Wins");
-                window.location.reload();
-                }
-              }
-            }
-          }
+        checkWin(winningCombos, xMoves)
+        checkWin(winningCombos, oMoves)
     });   
 }   
+
+
+function checkWin(winningCombos, movesArray){
+  for (let i = 0; i < winningCombos.length; i++) {
+    let count = 0
+    for (let j = 0; j < winningCombos[i].length; j++) { 
+      if (movesArray.includes(winningCombos[i][j])){
+        count++
+        if(count === 3){
+        alert("You Win!");
+        return true;  
+      }      
+      }
+    }
+  }
+  return false;
+}
