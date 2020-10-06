@@ -1,5 +1,5 @@
 const { expect } = require("@jest/globals");
-const checkWin = require("../app");
+const checkWin = require("../check");
 const winningCombos = [
     [0, 1, 2],
     [3, 4, 5],
