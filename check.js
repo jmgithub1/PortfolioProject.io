@@ -5,7 +5,6 @@ function checkWin(winningCombos, movesArray){
         if (movesArray.includes(winningCombos[i][j])){
           count++
           if(count === 3){
-          alert("You Win!");
           return true;  
         }      
         }
