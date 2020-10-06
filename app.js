@@ -28,7 +28,6 @@ for (let i = 0; i < gameCells.length; i++) {
     });   
 }   
 
-
 function checkWin(winningCombos, movesArray){
   for (let i = 0; i < winningCombos.length; i++) {
     let count = 0
@@ -44,3 +43,5 @@ function checkWin(winningCombos, movesArray){
   }
   return false;
 }
+
+module.exports = checkWin;
